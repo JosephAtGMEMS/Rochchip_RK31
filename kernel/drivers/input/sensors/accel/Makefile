@@ -1,0 +1,15 @@
+obj-$(CONFIG_GS_KXTIK) 		+= kxtik.o
+obj-$(CONFIG_GS_KXTJ9) 		+= kxtj9.o
+obj-$(CONFIG_GS_MMA8452) 	+= mma8452.o
+obj-$(CONFIG_GS_LIS3DH) 	+= lis3dh.o
+obj-$(CONFIG_GS_MMA7660) 	+= mma7660.o
+obj-$(CONFIG_GS_MXC6225)    += mxc622x.o
+obj-$(CONFIG_GS_D10)    += dmard10.o
+obj-$(CONFIG_GS_MC3XXX)    += mc3XXX.o
+obj-$(CONFIG_GS_STK8312)    += stk831x.o
+obj-$(CONFIG_GS_STK8313)    += stk831x.o
+obj-$(CONFIG_GS_MIR3DA)    += mir3da.o
+obj-$(CONFIG_GS_GMA301)    += gma301.o
+obj-$(CONFIG_GS_GMA302)    += gma30x.o
+obj-$(CONFIG_GS_GMA303)    += gma30x.o
+mir3da-objs := mir3da_cust.o mir3da_core.o
